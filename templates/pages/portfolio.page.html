@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %} 
+    Portfolio
+{% endblock %}
+
+{% block body %}
+    <h1>Portfolio</h1>
+
+    {% include "components/button.component.html" with button_title="Sample" number=1 is_error=true %}
+{% endblock %}
