@@ -1,3 +1,5 @@
 *sqlite3
 *__pycache__
 sample_app/settings.py
+
+/venv
